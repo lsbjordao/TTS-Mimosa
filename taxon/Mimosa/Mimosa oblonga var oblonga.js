@@ -1,0 +1,113 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Mimosa_oblonga_var_oblonga = void 0;
+// Import genus Mimosa
+var _1 = require(".");
+// Import characters
+var v1_1 = require("../../characters/v1");
+var Trichomes_1 = require("../../characters/v1/Trichomes");
+var Leaf_1 = require("../../characters/v1/Leaf");
+var Bipinnate_1 = require("../../characters/v1/Leaf/Bipinnate");
+var Spicule_1 = require("../../characters/v1/Leaf/Bipinnate/Rachis/Spicule");
+var Pinnae_1 = require("../../characters/v1/Leaf/Bipinnate/Pinnae");
+var Leaflet_1 = require("../../characters/v1/Leaf/Bipinnate/Pinnae/Leaflet");
+var Stipule_1 = require("../../characters/v1/Stipule");
+var Inflorescence_1 = require("../../characters/v1/Inflorescence");
+var Flower_1 = require("../../characters/v1/Flower");
+var Fruit_1 = require("../../characters/v1/Fruit");
+var Androecium_1 = require("../../characters/v1/Androecium");
+var Ginoecium_1 = require("../../characters/v1/Ginoecium");
+var Seed_1 = require("../../characters/v1/Seed");
+// Import annotation classes
+var v1_2 = require("../../characters/v1");
+// Description of Mimosa oblonga_var_oblonga
+var Mimosa_oblonga_var_oblonga = new _1.Mimosa();
+exports.Mimosa_oblonga_var_oblonga = Mimosa_oblonga_var_oblonga;
+Mimosa_oblonga_var_oblonga.specificEpithet = 'oblonga var. oblonga';
+Mimosa_oblonga_var_oblonga.stems = new v1_1.Stems();
+Mimosa_oblonga_var_oblonga.stems.trichomes = new v1_1.Trichomes();
+Mimosa_oblonga_var_oblonga.stems.trichomes.filiform = new Trichomes_1.Filiform();
+Mimosa_oblonga_var_oblonga.stems.trichomes.filiform.are = 'present';
+Mimosa_oblonga_var_oblonga.stems.trichomes.setiform = new Trichomes_1.Setiform();
+Mimosa_oblonga_var_oblonga.stems.trichomes.setiform.are = 'present';
+Mimosa_oblonga_var_oblonga.stipule = new v1_1.Stipule();
+Mimosa_oblonga_var_oblonga.stipule.margin = new Stipule_1.MarginStipule();
+Mimosa_oblonga_var_oblonga.stipule.adaxial = new Stipule_1.AdaxialStipule();
+Mimosa_oblonga_var_oblonga.stipule.abaxial = new Stipule_1.AbaxialStipule();
+Mimosa_oblonga_var_oblonga.leaf = new v1_1.Leaf();
+Mimosa_oblonga_var_oblonga.leaf.petiole = new Leaf_1.Petiole();
+Mimosa_oblonga_var_oblonga.leaf.bipinnate = new Leaf_1.Bipinnate();
+Mimosa_oblonga_var_oblonga.leaf.bipinnate.rachis = new Bipinnate_1.Rachis();
+Mimosa_oblonga_var_oblonga.leaf.bipinnate.rachis.spicule = new Spicule_1.Spicule();
+Mimosa_oblonga_var_oblonga.leaf.bipinnate.pinnae = new Bipinnate_1.Pinnae();
+Mimosa_oblonga_var_oblonga.leaf.bipinnate.pinnae.setNumberOfPairs(1);
+Mimosa_oblonga_var_oblonga.leaf.bipinnate.pinnae.paraphillidia = new Pinnae_1.Paraphillidia();
+Mimosa_oblonga_var_oblonga.leaf.bipinnate.pinnae.rachilla = new Pinnae_1.Rachilla();
+Mimosa_oblonga_var_oblonga.leaf.bipinnate.pinnae.leaflet = new Pinnae_1.Leaflet();
+Mimosa_oblonga_var_oblonga.leaf.bipinnate.pinnae.leaflet.setNumberOfPairs(1);
+Mimosa_oblonga_var_oblonga.leaf.bipinnate.pinnae.leaflet.margin = new Leaflet_1.MarginLeaflet();
+Mimosa_oblonga_var_oblonga.leaf.bipinnate.pinnae.leaflet.adaxial = new Leaflet_1.AdaxialLeaflet();
+Mimosa_oblonga_var_oblonga.leaf.bipinnate.pinnae.leaflet.abaxial = new Leaflet_1.AbaxialLeaflet();
+Mimosa_oblonga_var_oblonga.inflorescence = new v1_1.Inflorescence();
+Mimosa_oblonga_var_oblonga.inflorescence.peduncle = new Inflorescence_1.Peduncle();
+Mimosa_oblonga_var_oblonga.inflorescence.capitate = new Inflorescence_1.CapitateInflorescence();
+Mimosa_oblonga_var_oblonga.flower = new v1_1.Flower();
+Mimosa_oblonga_var_oblonga.flower.bracteole = new Flower_1.Bracteole();
+Mimosa_oblonga_var_oblonga.flower.merism = '4-merous';
+Mimosa_oblonga_var_oblonga.flower.numberWhorlsOfStamens = 'isostemonous';
+Mimosa_oblonga_var_oblonga.flower.calyx = new Flower_1.Calyx();
+Mimosa_oblonga_var_oblonga.flower.calyx.shape = 'campanulate';
+Mimosa_oblonga_var_oblonga.flower.corolla = new Flower_1.Corolla();
+Mimosa_oblonga_var_oblonga.flower.corolla.shape = 'campanulate';
+Mimosa_oblonga_var_oblonga.androecium = new v1_1.Androecium();
+Mimosa_oblonga_var_oblonga.androecium.filaments = new Androecium_1.Filaments();
+Mimosa_oblonga_var_oblonga.androecium.filaments.colour = 'pinkish';
+Mimosa_oblonga_var_oblonga.ginoecium = new v1_1.Ginoecium();
+Mimosa_oblonga_var_oblonga.ginoecium.ovary = new Ginoecium_1.Ovary();
+Mimosa_oblonga_var_oblonga.fruit = new v1_1.Fruit();
+Mimosa_oblonga_var_oblonga.fruit.stipe = new Fruit_1.Stipe();
+Mimosa_oblonga_var_oblonga.fruit.replum = new Fruit_1.Replum();
+Mimosa_oblonga_var_oblonga.fruit.epicarp = new Fruit_1.Epicarp();
+Mimosa_oblonga_var_oblonga.seed = new Seed_1.Seed();
+// Description authorship
+Mimosa_oblonga_var_oblonga.descriptionAuthorship = new v1_2.DescriptionAuthorship();
+Mimosa_oblonga_var_oblonga.descriptionAuthorship.addAuthor({
+    name: 'Lucas Sá Barreto Jordão',
+    date: 1692107172
+});
+// Sources
+var source0 = new v1_2.Source();
+source0.sourceType = 'article';
+source0.authorship = 'Jordão, L.S.B. & Morim, M.P. & Baumgratz, J.F.A.';
+source0.year = 2018;
+source0.title = 'Toward a Census of *Mimosa* (Leguminosae) in the Atlantic Domain, Southeastern Brazil';
+source0.journal = 'Systematic Botany';
+source0.volume = 43;
+source0.number = 1;
+source0.pages = 162 - 197;
+Mimosa_oblonga_var_oblonga.addSource(source0);
+/// Trichomes
+var source1 = new v1_2.Source();
+source1.sourceType = 'article';
+source1.authorship = 'Jordão, L.S.B. & Morim, M.P. & Baumgratz, J.F.A.';
+source1.year = 2020;
+source1.title = 'Trichomes in *Mimosa* (Leguminosae): Towards a characterization and a terminology standardization';
+source1.journal = 'Flora';
+source1.number = 272;
+source1.pages = 151702;
+source1.figure = '2B';
+source1.obtainingMethod = 'scanningElectronMicroscope';
+Mimosa_oblonga_var_oblonga.stems.trichomes.filiform.addSource(source1);
+Mimosa_oblonga_var_oblonga.stems.trichomes.setiform.addSource(source1);
+var source2 = new v1_2.Source();
+source2.sourceType = 'article';
+source2.authorship = 'Jordão, L.S.B. & Morim, M.P. & Baumgratz, J.F.A.';
+source2.year = 2020;
+source2.title = 'Trichomes in *Mimosa* (Leguminosae): Towards a characterization and a terminology standardization';
+source2.journal = 'Flora';
+source2.number = 272;
+source2.pages = 151702;
+source2.figure = '2H';
+source2.obtainingMethod = 'opticalMicroscope';
+Mimosa_oblonga_var_oblonga.stems.trichomes.filiform.addSource(source2);
+Mimosa_oblonga_var_oblonga.stems.trichomes.setiform.addSource(source2);

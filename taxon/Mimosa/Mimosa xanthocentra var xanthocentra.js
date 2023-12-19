@@ -1,0 +1,110 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Mimosa_xanthocentra_var_xanthocentra = void 0;
+// Import genus Mimosa
+var _1 = require(".");
+// Import characters
+var v1_1 = require("../../characters/v1");
+var Trichomes_1 = require("../../characters/v1/Trichomes");
+var Setiform_1 = require("../../characters/v1/Trichomes/Setiform");
+var Leaf_1 = require("../../characters/v1/Leaf");
+var Bipinnate_1 = require("../../characters/v1/Leaf/Bipinnate");
+var Spicule_1 = require("../../characters/v1/Leaf/Bipinnate/Rachis/Spicule");
+var Pinnae_1 = require("../../characters/v1/Leaf/Bipinnate/Pinnae");
+var Leaflet_1 = require("../../characters/v1/Leaf/Bipinnate/Pinnae/Leaflet");
+var Stipule_1 = require("../../characters/v1/Stipule");
+var Inflorescence_1 = require("../../characters/v1/Inflorescence");
+var Flower_1 = require("../../characters/v1/Flower");
+var Fruit_1 = require("../../characters/v1/Fruit");
+var Androecium_1 = require("../../characters/v1/Androecium");
+var Ginoecium_1 = require("../../characters/v1/Ginoecium");
+var Seed_1 = require("../../characters/v1/Seed");
+// Import annotation classes
+var v1_2 = require("../../characters/v1");
+// Description of Mimosa xanthocentra_var_xanthocentra
+var Mimosa_xanthocentra_var_xanthocentra = new _1.Mimosa();
+exports.Mimosa_xanthocentra_var_xanthocentra = Mimosa_xanthocentra_var_xanthocentra;
+Mimosa_xanthocentra_var_xanthocentra.specificEpithet = 'xanthocentra var. xanthocentra';
+Mimosa_xanthocentra_var_xanthocentra.stems = new v1_1.Stems();
+Mimosa_xanthocentra_var_xanthocentra.stems.trichomes = new v1_1.Trichomes();
+Mimosa_xanthocentra_var_xanthocentra.stems.trichomes.setiform = new Trichomes_1.Setiform();
+Mimosa_xanthocentra_var_xanthocentra.stems.trichomes.setiform.barbellate = new Setiform_1.SetiformBarbellate();
+Mimosa_xanthocentra_var_xanthocentra.stems.trichomes.setiform.barbellate.are = 'present';
+Mimosa_xanthocentra_var_xanthocentra.stipule = new v1_1.Stipule();
+Mimosa_xanthocentra_var_xanthocentra.stipule.margin = new Stipule_1.MarginStipule();
+Mimosa_xanthocentra_var_xanthocentra.stipule.adaxial = new Stipule_1.AdaxialStipule();
+Mimosa_xanthocentra_var_xanthocentra.stipule.abaxial = new Stipule_1.AbaxialStipule();
+Mimosa_xanthocentra_var_xanthocentra.leaf = new v1_1.Leaf();
+Mimosa_xanthocentra_var_xanthocentra.leaf.petiole = new Leaf_1.Petiole();
+Mimosa_xanthocentra_var_xanthocentra.leaf.bipinnate = new Leaf_1.Bipinnate();
+Mimosa_xanthocentra_var_xanthocentra.leaf.bipinnate.rachis = new Bipinnate_1.Rachis();
+Mimosa_xanthocentra_var_xanthocentra.leaf.bipinnate.rachis.spicule = new Spicule_1.Spicule();
+Mimosa_xanthocentra_var_xanthocentra.leaf.bipinnate.pinnae = new Bipinnate_1.Pinnae();
+Mimosa_xanthocentra_var_xanthocentra.leaf.bipinnate.pinnae.paraphillidia = new Pinnae_1.Paraphillidia();
+Mimosa_xanthocentra_var_xanthocentra.leaf.bipinnate.pinnae.rachilla = new Pinnae_1.Rachilla();
+Mimosa_xanthocentra_var_xanthocentra.leaf.bipinnate.pinnae.leaflet = new Pinnae_1.Leaflet();
+Mimosa_xanthocentra_var_xanthocentra.leaf.bipinnate.pinnae.leaflet.setNumberOfPairs(1);
+Mimosa_xanthocentra_var_xanthocentra.leaf.bipinnate.pinnae.leaflet.margin = new Leaflet_1.MarginLeaflet();
+Mimosa_xanthocentra_var_xanthocentra.leaf.bipinnate.pinnae.leaflet.adaxial = new Leaflet_1.AdaxialLeaflet();
+Mimosa_xanthocentra_var_xanthocentra.leaf.bipinnate.pinnae.leaflet.abaxial = new Leaflet_1.AbaxialLeaflet();
+Mimosa_xanthocentra_var_xanthocentra.inflorescence = new v1_1.Inflorescence();
+Mimosa_xanthocentra_var_xanthocentra.inflorescence.peduncle = new Inflorescence_1.Peduncle();
+Mimosa_xanthocentra_var_xanthocentra.inflorescence.capitate = new Inflorescence_1.CapitateInflorescence();
+Mimosa_xanthocentra_var_xanthocentra.flower = new v1_1.Flower();
+Mimosa_xanthocentra_var_xanthocentra.flower.bracteole = new Flower_1.Bracteole();
+Mimosa_xanthocentra_var_xanthocentra.flower.merism = '4-merous';
+Mimosa_xanthocentra_var_xanthocentra.flower.numberWhorlsOfStamens = 'isostemonous';
+Mimosa_xanthocentra_var_xanthocentra.flower.calyx = new Flower_1.Calyx();
+Mimosa_xanthocentra_var_xanthocentra.flower.calyx.shape = 'pappiform';
+Mimosa_xanthocentra_var_xanthocentra.flower.corolla = new Flower_1.Corolla();
+Mimosa_xanthocentra_var_xanthocentra.flower.corolla.shape = 'campanulate';
+Mimosa_xanthocentra_var_xanthocentra.androecium = new v1_1.Androecium();
+Mimosa_xanthocentra_var_xanthocentra.androecium.filaments = new Androecium_1.Filaments();
+Mimosa_xanthocentra_var_xanthocentra.androecium.filaments.colour = 'pinkish';
+Mimosa_xanthocentra_var_xanthocentra.ginoecium = new v1_1.Ginoecium();
+Mimosa_xanthocentra_var_xanthocentra.ginoecium.ovary = new Ginoecium_1.Ovary();
+Mimosa_xanthocentra_var_xanthocentra.fruit = new v1_1.Fruit();
+Mimosa_xanthocentra_var_xanthocentra.fruit.stipe = new Fruit_1.Stipe();
+Mimosa_xanthocentra_var_xanthocentra.fruit.replum = new Fruit_1.Replum();
+Mimosa_xanthocentra_var_xanthocentra.fruit.epicarp = new Fruit_1.Epicarp();
+Mimosa_xanthocentra_var_xanthocentra.seed = new Seed_1.Seed();
+// Description authorship
+Mimosa_xanthocentra_var_xanthocentra.descriptionAuthorship = new v1_2.DescriptionAuthorship();
+Mimosa_xanthocentra_var_xanthocentra.descriptionAuthorship.addAuthor({
+    name: 'Lucas Sá Barreto Jordão',
+    date: 1692107172
+});
+// Sources
+var source0 = new v1_2.Source();
+source0.sourceType = 'article';
+source0.authorship = 'Jordão, L.S.B. & Morim, M.P. & Baumgratz, J.F.A.';
+source0.year = 2018;
+source0.title = 'Toward a Census of *Mimosa* (Leguminosae) in the Atlantic Domain, Southeastern Brazil';
+source0.journal = 'Systematic Botany';
+source0.volume = 43;
+source0.number = 1;
+source0.pages = 162 - 197;
+Mimosa_xanthocentra_var_xanthocentra.addSource(source0);
+/// Trichomes
+var source1 = new v1_2.Source();
+source1.sourceType = 'article';
+source1.authorship = 'Jordão, L.S.B. & Morim, M.P. & Baumgratz, J.F.A.';
+source1.year = 2020;
+source1.title = 'Trichomes in *Mimosa* (Leguminosae): Towards a characterization and a terminology standardization';
+source1.journal = 'Flora';
+source1.number = 272;
+source1.pages = 151702;
+source1.figure = '3B';
+source1.obtainingMethod = 'scanningElectronMicroscope';
+Mimosa_xanthocentra_var_xanthocentra.stems.trichomes.setiform.barbellate.addSource(source1);
+var source2 = new v1_2.Source();
+source2.sourceType = 'article';
+source2.authorship = 'Jordão, L.S.B. & Morim, M.P. & Baumgratz, J.F.A.';
+source2.year = 2020;
+source2.title = 'Trichomes in *Mimosa* (Leguminosae): Towards a characterization and a terminology standardization';
+source2.journal = 'Flora';
+source2.number = 272;
+source2.pages = 151702;
+source2.figure = '3C';
+source2.obtainingMethod = 'stereoscope';
+Mimosa_xanthocentra_var_xanthocentra.stems.trichomes.setiform.barbellate.addSource(source2);
