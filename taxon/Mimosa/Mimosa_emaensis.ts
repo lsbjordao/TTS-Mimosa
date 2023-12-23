@@ -4,8 +4,7 @@ import { Mimosa } from '.'
 // Import characters
 import { 
     Stems, 
-    Trichomes, 
-    Prickles, 
+    Trichomes,
     Leaf, 
     Flower, 
     Fruit, 
@@ -35,9 +34,6 @@ Mimosa_emaensis.specificEpithet = 'emaensis'
 
 Mimosa_emaensis.habit = ['herb', 'subshrub']
 Mimosa_emaensis.height = 0.5
-
-Mimosa_emaensis.prickles = new Prickles()
-Mimosa_emaensis.prickles.are = 'absent'
 
 Mimosa_emaensis.trichomes = new Trichomes()
 Mimosa_emaensis.trichomes.filiform = new Filiform()
