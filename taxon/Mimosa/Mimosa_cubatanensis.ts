@@ -18,7 +18,6 @@ import { CapitateInflorescence, Peduncle } from '../../characters/v1/Inflorescen
 import { Bracteole, Calyx, Corolla } from '../../characters/v1/Flower'
 import { Filaments } from '../../characters/v1/Androecium'
 import { Ovary } from '../../characters/v1/Ginoecium'
-import { setDefaultHighWaterMark } from 'stream'
 
 // Description of Mimosa cubatanensis
 const Mimosa_cubatanensis = new Mimosa()

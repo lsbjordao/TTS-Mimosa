@@ -15,12 +15,10 @@ import { Spicule } from '../../characters/v1/Leaf/Bipinnate/Rachis/Spicule'
 import { Leaflet, Paraphillidia, Rachilla } from '../../characters/v1/Leaf/Bipinnate/Pinnae'
 import { AbaxialLeaflet, AdaxialLeaflet, MarginLeaflet } from '../../characters/v1/Leaf/Bipinnate/Pinnae/Leaflet'
 import { CapitateInflorescence, Peduncle } from '../../characters/v1/Inflorescence'
-import { FlowFlags } from 'typescript'
 import { Bracteole, Calyx, Corolla } from '../../characters/v1/Flower'
 import { Filaments } from '../../characters/v1/Androecium'
 import { Ovary } from '../../characters/v1/Ginoecium'
 import { Epicarp, Replum, Stipe } from '../../characters/v1/Fruit'
-import { setDefaultHighWaterMark } from 'stream'
 
 // Description of Mimosa dolens var. dolens
 const Mimosa_dolens_var_dolens = new Mimosa()
