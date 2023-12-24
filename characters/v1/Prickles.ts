@@ -6,7 +6,7 @@ import { _setLength, _setLengthMinMax } from './methods/sizes'
 
 export class Prickles extends Sources {
     /**
-     * Are prickles present (armed structure), absent (unarmed structure), or both (armed or unarmerd)?
+     * Are prickles present (armed structure), absent (unarmed structure), or both (armed or unarmed)?
      *
      * @remarks
      * If `absent`, the `length` should be `null`.
