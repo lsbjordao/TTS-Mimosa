@@ -78,8 +78,8 @@ Mimosa_myuros.inflorescence.spicate = new Spicate()
 
 Mimosa_myuros.flower = new Flower()
 Mimosa_myuros.flower.bracteole = new Bracteole()
-Mimosa_myuros.flower.merism = '5-merous'
-Mimosa_myuros.flower.numberWhorlsOfStamens = 'diplostemonous'
+Mimosa_myuros.flower.merism = '4-merous'
+Mimosa_myuros.flower.numberWhorlsOfStamens = 'isostemonous'
 Mimosa_myuros.flower.calyx = new Calyx()
 Mimosa_myuros.flower.calyx.shape = 'campanulate'
 Mimosa_myuros.flower.corolla = new Corolla()
