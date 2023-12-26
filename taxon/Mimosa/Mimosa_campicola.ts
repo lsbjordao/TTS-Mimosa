@@ -18,6 +18,7 @@ Mimosa_campicola.fruit = new Fruit()
 Mimosa_campicola.fruit.epicarp = new Epicarp()
 Mimosa_campicola.fruit.epicarp.trichomes = new Trichomes()
 Mimosa_campicola.fruit.epicarp.trichomes.setiform = new Setiform()
+Mimosa_campicola.fruit.epicarp.trichomes.setiform.are = 'present'
 Mimosa_campicola.fruit.epicarp.trichomes.setiform.glochidiate = new SetiformGlochidiate()
 Mimosa_campicola.fruit.epicarp.trichomes.setiform.glochidiate.are = 'present'
 

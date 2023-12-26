@@ -25,7 +25,9 @@ Mimosa_minarum.leaf.bipinnate.pinnae.leaflet = new Leaflet()
 Mimosa_minarum.leaf.bipinnate.pinnae.leaflet.abaxial = new AbaxialLeaflet()
 Mimosa_minarum.leaf.bipinnate.pinnae.leaflet.abaxial.trichomes = new Trichomes()
 Mimosa_minarum.leaf.bipinnate.pinnae.leaflet.abaxial.trichomes.capitate = new Capitate()
+Mimosa_minarum.leaf.bipinnate.pinnae.leaflet.abaxial.trichomes.capitate.are = 'present'
 Mimosa_minarum.leaf.bipinnate.pinnae.leaflet.abaxial.trichomes.capitate.filiform = new CapitateFiliform()
+Mimosa_minarum.leaf.bipinnate.pinnae.leaflet.abaxial.trichomes.capitate.filiform.are = 'present'
 Mimosa_minarum.leaf.bipinnate.pinnae.leaflet.abaxial.trichomes.capitate.filiform.variantCordistipulae = new VariantCordistipulae()
 
 // Description authorship

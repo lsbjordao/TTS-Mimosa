@@ -16,6 +16,7 @@ Mimosa_leptantha.specificEpithet = 'leptantha'
 Mimosa_leptantha.stems = new Stems()
 Mimosa_leptantha.stems.trichomes = new Trichomes()
 Mimosa_leptantha.stems.trichomes.capitate = new Capitate()
+Mimosa_leptantha.stems.trichomes.capitate.are = 'present'
 Mimosa_leptantha.stems.trichomes.capitate.filiform = new CapitateFiliform()
 Mimosa_leptantha.stems.trichomes.capitate.filiform.are = 'present'
 

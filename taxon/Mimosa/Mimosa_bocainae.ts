@@ -43,6 +43,7 @@ Mimosa_bocainae.specificEpithet = 'bocainae'
 Mimosa_bocainae.stems = new Stems()
 Mimosa_bocainae.stems.trichomes = new Trichomes()
 Mimosa_bocainae.stems.trichomes.setiform = new Setiform()
+Mimosa_bocainae.stems.trichomes.setiform.are = 'present'
 Mimosa_bocainae.stems.trichomes.setiform.barbellate = new SetiformBarbellate()
 Mimosa_bocainae.stems.trichomes.setiform.barbellate.are = 'present'
 Mimosa_bocainae.stems.trichomes.setiform.barbellate.density = 'densely'

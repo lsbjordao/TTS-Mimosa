@@ -16,6 +16,7 @@ Mimosa_cordistipula.specificEpithet = 'cordistipula'
 Mimosa_cordistipula.stems = new Stems()
 Mimosa_cordistipula.stems.trichomes = new Trichomes()
 Mimosa_cordistipula.stems.trichomes.capitate = new Capitate()
+Mimosa_cordistipula.stems.trichomes.capitate.are = 'present'
 Mimosa_cordistipula.stems.trichomes.capitate.filiform = new CapitateFiliform()
 Mimosa_cordistipula.stems.trichomes.capitate.filiform.are = 'present'
 

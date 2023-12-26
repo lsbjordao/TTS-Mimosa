@@ -27,6 +27,7 @@ Mimosa_dryandroides_var_dryandroides.specificEpithet = 'dryandroides var. dryand
 Mimosa_dryandroides_var_dryandroides.stems = new Stems()
 Mimosa_dryandroides_var_dryandroides.stems.trichomes = new Trichomes()
 Mimosa_dryandroides_var_dryandroides.stems.trichomes.setiform = new Setiform()
+Mimosa_dryandroides_var_dryandroides.stems.trichomes.setiform.are = 'present'
 Mimosa_dryandroides_var_dryandroides.stems.trichomes.setiform.barbellate = new SetiformBarbellate()
 Mimosa_dryandroides_var_dryandroides.stems.trichomes.setiform.barbellate.are = 'present'
 Mimosa_dryandroides_var_dryandroides.stems.trichomes.granular = new Granular()

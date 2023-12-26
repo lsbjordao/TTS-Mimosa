@@ -45,6 +45,7 @@ Mimosa_pigra_var_pigra.stems.trichomes = new Trichomes()
 Mimosa_pigra_var_pigra.stems.trichomes.filiform = new Filiform()
 Mimosa_pigra_var_pigra.stems.trichomes.filiform.are = 'present'
 Mimosa_pigra_var_pigra.stems.trichomes.setiform = new Setiform()
+Mimosa_pigra_var_pigra.stems.trichomes.setiform.are = 'present'
 Mimosa_pigra_var_pigra.stems.trichomes.setiform.barbellate = new SetiformBarbellate()
 Mimosa_pigra_var_pigra.stems.trichomes.setiform.barbellate.are = 'present'
 
@@ -126,7 +127,7 @@ source1.number = 272
 source1.pages = '151702'
 source1.figure = '3D'
 source1.obtainingMethod = 'scanningElectronMicroscope'
-Mimosa_pigra_var_pigra.stems.trichomes.setiform.addSource(source1)
+Mimosa_pigra_var_pigra.stems.trichomes.setiform.barbellate.addSource(source1)
 
 const source2 = new Source()
 source2.sourceType = 'article'
@@ -138,7 +139,7 @@ source2.number = 272
 source2.pages = '151702'
 source2.figure = '3E'
 source2.obtainingMethod = 'stereoscope'
-Mimosa_pigra_var_pigra.stems.trichomes.setiform.addSource(source2)
+Mimosa_pigra_var_pigra.stems.trichomes.setiform.barbellate.addSource(source2)
 
 const source3 = new Source()
 source3.sourceType = 'article'
@@ -150,7 +151,7 @@ source3.number = 272
 source3.pages = '151702'
 source3.figure = '3F'
 source3.obtainingMethod = 'opticalMicroscope'
-Mimosa_pigra_var_pigra.stems.trichomes.setiform.addSource(source3)
+Mimosa_pigra_var_pigra.stems.trichomes.setiform.barbellate.addSource(source3)
 
 // Export Mimosa pigra_var_pigra
 export { Mimosa_pigra_var_pigra }

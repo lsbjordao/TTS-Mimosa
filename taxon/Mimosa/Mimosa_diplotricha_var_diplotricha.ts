@@ -72,6 +72,7 @@ Mimosa_diplotricha_var_diplotricha.fruit.replum = new Replum()
 Mimosa_diplotricha_var_diplotricha.fruit.epicarp = new Epicarp()
 Mimosa_diplotricha_var_diplotricha.fruit.epicarp.trichomes = new Trichomes()
 Mimosa_diplotricha_var_diplotricha.fruit.epicarp.trichomes.setiform = new Setiform()
+Mimosa_diplotricha_var_diplotricha.fruit.epicarp.trichomes.setiform.are = 'present'
 Mimosa_diplotricha_var_diplotricha.fruit.epicarp.trichomes.setiform.barbellate = new SetiformBarbellate()
 Mimosa_diplotricha_var_diplotricha.fruit.epicarp.trichomes.setiform.barbellate.are = 'present'
 

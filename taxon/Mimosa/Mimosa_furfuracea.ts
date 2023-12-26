@@ -83,6 +83,7 @@ Mimosa_furfuracea.flower.corolla = new Corolla()
 Mimosa_furfuracea.flower.corolla.shape = 'campanulate'
 Mimosa_furfuracea.flower.corolla.trichomes = new Trichomes()
 Mimosa_furfuracea.flower.corolla.trichomes.stellate = new Stellate()
+Mimosa_furfuracea.flower.corolla.trichomes.stellate.are = 'present'
 Mimosa_furfuracea.flower.corolla.trichomes.stellate.lepidote = new StellateLepidote()
 Mimosa_furfuracea.flower.corolla.trichomes.stellate.lepidote.are = 'present'
 

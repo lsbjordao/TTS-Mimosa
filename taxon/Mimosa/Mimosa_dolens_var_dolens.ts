@@ -31,6 +31,7 @@ Mimosa_dolens_var_dolens.stems.trichomes.filiform.are = 'present'
 Mimosa_dolens_var_dolens.stems.trichomes.porrect = new Porrect()
 Mimosa_dolens_var_dolens.stems.trichomes.porrect.are = 'present or absent'
 Mimosa_dolens_var_dolens.stems.trichomes.capitate = new Capitate()
+Mimosa_dolens_var_dolens.stems.trichomes.capitate.are = 'present'
 Mimosa_dolens_var_dolens.stems.trichomes.capitate.setiform = new CapitateSetiform()
 Mimosa_dolens_var_dolens.stems.trichomes.capitate.setiform.are = 'present'
 

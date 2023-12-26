@@ -43,6 +43,7 @@ Mimosa_xanthocentra_var_xanthocentra.specificEpithet = 'xanthocentra var. xantho
 Mimosa_xanthocentra_var_xanthocentra.stems = new Stems()
 Mimosa_xanthocentra_var_xanthocentra.stems.trichomes = new Trichomes()
 Mimosa_xanthocentra_var_xanthocentra.stems.trichomes.setiform = new Setiform()
+Mimosa_xanthocentra_var_xanthocentra.stems.trichomes.setiform.are = 'present'
 Mimosa_xanthocentra_var_xanthocentra.stems.trichomes.setiform.barbellate = new SetiformBarbellate()
 Mimosa_xanthocentra_var_xanthocentra.stems.trichomes.setiform.barbellate.are = 'present'
 
