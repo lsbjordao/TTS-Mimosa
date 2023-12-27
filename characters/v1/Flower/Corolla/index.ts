@@ -39,10 +39,22 @@ class Corolla extends Sources {
         'campanulate' |
         'turbinate' |
         'tubulose' |
+        'funnelform' |
+        'vase-shaped' |
+        'trumpet-shaped' |
+        'subtubular' |
+        'subcylindric' |
+        'obovoid' |
         (
             'campanulate' |
             'turbinate' |
-            'tubulose'
+            'tubulose' |
+            'funnelform' |
+            'vase-shaped' |
+            'trumpet-shaped' |
+            'subtubular' |
+            'subcylindric' |
+            'obovoid'
         )[]
 
     /**

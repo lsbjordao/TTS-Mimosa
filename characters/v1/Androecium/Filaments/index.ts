@@ -20,7 +20,23 @@ class Filaments extends Sources {
     /**
      * Colour of filaments.
      */
-    colour: 'pinkish' | 'yellowish' | 'whitenish' | ('pinkish' | 'yellowish' | 'whitenish')[]
+    colour:
+        'pinkish' |
+        'yellowish' |
+        'whitenish' |
+        'creamish' |
+        'lilac' |
+        'redish' |
+        'purplish' |
+        (
+            'pinkish' |
+            'yellowish' |
+            'whitenish' |
+            'creamish' |
+            'lilac' |
+            'redish' |
+            'purplish'
+        )[]
 
     /**
      * Base of filaments
@@ -59,5 +75,5 @@ class Filaments extends Sources {
 
 export {
     Filaments,
-    baseFilaments   
+    baseFilaments
 }

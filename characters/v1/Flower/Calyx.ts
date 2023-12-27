@@ -32,8 +32,31 @@ export class Calyx extends Sources {
     /**
      * Calyx shape.
      */
-    shape: 'campanulate' | 'pappiform' | 'pateliform'
-
+    shape:
+        'campanulate' |
+        'pappiform' |
+        'paleaceous' |
+        'paleaceous-pappiform' |
+        'patelliform' |
+        'cup-shaped' |
+        'discoid' |
+        'turbinate' |
+        'collar' |
+        'rudimentary' |
+        'spathiform' |
+        (
+            'campanulate' |
+            'pappiform' |
+            'paleaceous' |
+            'paleaceous-pappiform' |
+            'patelliform' |
+            'cup-shaped' |
+            'discoid' |
+            'turbinate' |
+            'collar' |
+            'rudimentary' |
+            'spathiform'
+        )[]
     /**
      * Calyx apex.
      */

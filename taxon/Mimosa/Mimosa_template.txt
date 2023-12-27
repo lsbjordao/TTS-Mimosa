@@ -74,7 +74,7 @@ Mimosa_{{specificEpithet}}.leaf.bipinnate.pinnae.setNumberOfPairsMinMax({{leafBi
 {{/leafBipinnatePinnaeNumberOfPairsMax}}
 {{/leafBipinnatePinnaeNumberOfPairsMin}}
 {{#leafBipinnatePinnaeNumberOfPairsRarelyMax}}
-Mimosa_{{specificEpithet}}.leaf.bipinnate.pinnae.setNumberOfPairsRarelyMin({{leafBipinnatePinnaeNumberOfPairsRarelyMax}})
+Mimosa_{{specificEpithet}}.leaf.bipinnate.pinnae.setNumberOfPairsRarelyMax({{leafBipinnatePinnaeNumberOfPairsRarelyMax}})
 {{/leafBipinnatePinnaeNumberOfPairsRarelyMax}}
 Mimosa_{{specificEpithet}}.leaf.bipinnate.pinnae.paraphillidia = new Paraphillidia()
 Mimosa_{{specificEpithet}}.leaf.bipinnate.pinnae.rachilla = new Rachilla()
@@ -91,7 +91,7 @@ Mimosa_{{specificEpithet}}.leaf.bipinnate.pinnae.leaflet.setNumberOfPairsMinMax(
 {{/leafBipinnatePinnaeLeafletNumberOfPairsMax}}
 {{/leafBipinnatePinnaeLeafletNumberOfPairsMin}}
 {{#leafBipinnatePinnaeLeafletNumberOfPairsRarelyMax}}
-Mimosa_{{specificEpithet}}.leaf.bipinnate.pinnae.leaflet.setNumberOfPairsRarelyMin({{leafBipinnatePinnaeLeafletNumberOfPairsRarelyMax}})
+Mimosa_{{specificEpithet}}.leaf.bipinnate.pinnae.leaflet.setNumberOfPairsRarelyMax({{leafBipinnatePinnaeLeafletNumberOfPairsRarelyMax}})
 {{/leafBipinnatePinnaeLeafletNumberOfPairsRarelyMax}}
 Mimosa_{{specificEpithet}}.leaf.bipinnate.pinnae.leaflet.margin = new MarginLeaflet()
 Mimosa_{{specificEpithet}}.leaf.bipinnate.pinnae.leaflet.adaxial = new AdaxialLeaflet()
