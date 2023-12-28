@@ -230,7 +230,7 @@ source3.title = 'New Species of *Mimosa* (Leguminosae) from Brazil'
 source3.journal = 'Systematic Botany'
 source3.volume = 46
 source3.number = 2
-source3.pages = 339-351
+source3.pages = '339-351'
 source3.figure = '3'
 source3.obtainingMethod = 'photo'
 Mimosa_afranioi.addSource(source3)
