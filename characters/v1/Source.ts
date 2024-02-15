@@ -42,7 +42,7 @@ export class Source {
     /**
      * Year.
      */
-    year: number
+    year: string
 
     /**
      * Title.
@@ -57,19 +57,19 @@ export class Source {
     /**
      * Number
      */
-    number: number
+    number: string
 
     /**
      * Volume
      */
-    volume: number
+    volume: string
 
     /**
      * Pages.
      * 
-     * @type string | number
+     * @type string
      */
-    pages: string | number
+    pages: string
 
     /**
      * Figure.

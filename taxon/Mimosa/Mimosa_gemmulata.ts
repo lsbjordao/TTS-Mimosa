@@ -31,11 +31,11 @@ Mimosa_gemmulata.descriptionAuthorship.addAuthor({
 const source1 = new Source()
 source1.sourceType = 'article'
 source1.authorship = 'Vieira, L.G. & Nogueiro, R.M. & Costa, E.C. & Carvalho-Fernandes, S.P. & Santos-Silva, J.'
-source1.year = 2018
+source1.year = '2018'
 source1.title = 'Insect galls in Rupestrian field and Cerrado stricto sensu vegetation in Caetité, Bahia, Brazil'
 source1.journal = 'Biota Neotrop.'
-source1.number = 18
-source1.volume = 2
+source1.number = '18'
+source1.volume = '2'
 source1.figure = '2P,Q'
 source1.obtainingMethod = 'photo'
 source1.doi = 'https://doi.org/10.1590/1676-0611-BN-2017-0402'

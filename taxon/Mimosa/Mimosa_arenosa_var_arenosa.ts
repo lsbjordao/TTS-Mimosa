@@ -99,23 +99,23 @@ Mimosa_arenosa_var_arenosa.descriptionAuthorship.addAuthor({
 const source1 = new Source()
 source1.sourceType = 'article'
 source1.authorship = 'Jordão, L.S.B. & Morim, M.P. & Baumgratz, J.F.A.'
-source1.year = 2018
+source1.year = '2018'
 source1.title = 'Toward a Census of *Mimosa* (Leguminosae) in the Atlantic Domain, Southeastern Brazil'
 source1.journal = 'Systematic Botany'
-source1.volume = 43
-source1.number = 1
-source1.pages = 162-197
+source1.volume = '43'
+source1.number = '1'
+source1.pages = '162-197'
 Mimosa_arenosa_var_arenosa.addSource(source1)
 
 /// Trichomes
 const source2 = new Source()
 source2.sourceType = 'article'
 source2.authorship = 'Jordão, L.S.B. & Morim, M.P. & Baumgratz, J.F.A.'
-source2.year = 2020
+source2.year = '2020'
 source2.title = 'Trichomes in *Mimosa* (Leguminosae): Towards a characterization and a terminology standardization'
 source2.journal = 'Flora'
-source2.number = 272
-source2.pages = 151702
+source2.number = '272'
+source2.pages = '151702'
 source2.figure = '8A'
 source2.obtainingMethod = 'scanningElectronMicroscope'
 Mimosa_arenosa_var_arenosa.leaf.petiole.trichomes.granular.addSource(source2)

@@ -102,23 +102,23 @@ Mimosa_ernestii.descriptionAuthorship.addAuthor({
 const source0 = new Source()
 source0.sourceType = 'article'
 source0.authorship = 'Jordão, L.S.B. & Morim, M.P. & Baumgratz, J.F.A.'
-source0.year = 2018
+source0.year = '2018'
 source0.title = 'Toward a Census of *Mimosa* (Leguminosae) in the Atlantic Domain, Southeastern Brazil'
 source0.journal = 'Systematic Botany'
-source0.volume = 43
-source0.number = 1
-source0.pages = 162-197
+source0.volume = '43'
+source0.number = '1'
+source0.pages = '162-197'
 Mimosa_ernestii.addSource(source0)
 
 /// Trichomes
 const source1 = new Source()
 source1.sourceType = 'article'
 source1.authorship = 'Jordão, L.S.B. & Morim, M.P. & Baumgratz, J.F.A.'
-source1.year = 2020
+source1.year = '2020'
 source1.title = 'Trichomes in *Mimosa* (Leguminosae): Towards a characterization and a terminology standardization'
 source1.journal = 'Flora'
-source1.number = 272
-source1.pages = 151702
+source1.number = '272'
+source1.pages = '151702'
 source1.figure = '2K'
 source1.obtainingMethod = 'scanningElectronMicroscope'
 Mimosa_ernestii.stems.trichomes.setiform.addSource(source1)

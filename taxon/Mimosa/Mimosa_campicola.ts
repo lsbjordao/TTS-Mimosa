@@ -34,11 +34,11 @@ Mimosa_campicola.descriptionAuthorship.addAuthor({
 const source1 = new Source()
 source1.sourceType = 'article'
 source1.authorship = 'Jordão, L.S.B. & Morim, M.P. & Baumgratz, J.F.A.'
-source1.year = 2020
+source1.year = '2020'
 source1.title = 'Trichomes in *Mimosa* (Leguminosae): Towards a characterization and a terminology standardization'
 source1.journal = 'Flora'
-source1.number = 272
-source1.pages = 151702
+source1.number = '272'
+source1.pages = '151702'
 source1.figure = '4A,B'
 source1.obtainingMethod = 'stereoscope'
 Mimosa_campicola.fruit.epicarp.trichomes.setiform.glochidiate.addSource(source1)
