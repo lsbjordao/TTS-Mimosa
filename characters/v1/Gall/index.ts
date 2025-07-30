@@ -7,7 +7,7 @@ export class Gall extends Sources {
     inducedBy: string
 
     /**
-     * Creates an instance of Dendritic trichome.
+     * Creates an instance of Gall.
      */
     constructor() {
         super()
