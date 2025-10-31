@@ -1,7 +1,6 @@
 *.js
 input
 output
-docs
 node_modules
 package-lock.json
 package.json
