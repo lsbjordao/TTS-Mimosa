@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>andina</title>
+<link href="https://cdn.jsdelivr.net/npm/json-formatter-js@2.5.23/dist/json-formatter.min.css" rel="stylesheet">
+<style>
+  body { font-family: sans-serif; padding: 1em; }
+  #json { margin-top: 1em; }
+</style>
+</head>
+<body>
+<h1><i>Mimosa</i> andina</h1>
+<div id="json"></div>
+<p><a href="index.html">Voltar ao índice</a></p>
+
+<script src="https://cdn.jsdelivr.net/npm/json-formatter-js@2.5.23/dist/json-formatter.umd.min.js"></script>
+<script>
+  const data = {
+  "sources": [],
+  "specificEpithet": "andina",
+  "stems": {
+    "sources": []
+  },
+  "stipule": {
+    "sources": [],
+    "margin": {
+      "sources": []
+    },
+    "adaxial": {
+      "sources": []
+    },
+    "abaxial": {
+      "sources": []
+    }
+  },
+  "leaf": {
+    "sources": [],
+    "petiole": {
+      "sources": []
+    },
+    "bipinnate": {
+      "sources": [],
+      "rachis": {
+        "sources": [],
+        "spicule": {
+          "sources": []
+        }
+      },
+      "pinnae": {
+        "sources": [],
+        "numberOfPairs": {
+          "min": 2,
+          "max": 3
+        },
+        "paraphillidia": {
+          "sources": []
+        },
+        "rachilla": {
+          "sources": []
+        },
+        "leaflet": {
+          "sources": [],
+          "numberOfPairs": {
+            "min": 7,
+            "max": 10
+          },
+          "margin": {
+            "sources": []
+          },
+          "adaxial": {
+            "sources": []
+          },
+          "abaxial": {
+            "sources": []
+          }
+        }
+      }
+    }
+  },
+  "inflorescence": {
+    "sources": [],
+    "peduncle": {
+      "sources": []
+    },
+    "capitate": {
+      "sources": []
+    }
+  },
+  "flower": {
+    "sources": [],
+    "bracteole": {
+      "sources": []
+    },
+    "merism": [
+      "5-merous",
+      "6-merous"
+    ],
+    "calyx": {
+      "sources": [],
+      "shape": "campanulate"
+    },
+    "corolla": {
+      "sources": [],
+      "shape": "funnelform"
+    }
+  },
+  "androecium": {
+    "sources": [],
+    "filaments": {
+      "sources": [],
+      "colour": "whitenish"
+    }
+  },
+  "ginoecium": {
+    "sources": [],
+    "ovary": {
+      "sources": []
+    }
+  },
+  "fruit": {
+    "sources": [],
+    "stipe": {
+      "sources": []
+    },
+    "replum": {
+      "sources": []
+    },
+    "epicarp": {
+      "sources": []
+    }
+  },
+  "seed": {
+    "sources": []
+  },
+  "descriptionAuthorship": {
+    "authorship": [
+      {
+        "name": "Barneby",
+        "date": 1703709349
+      }
+    ]
+  }
+};
+  const container = document.getElementById("json");
+  const formatter = new window.JSONFormatter(data, Infinity);
+  container.appendChild(formatter.render());
+</script>
+</body>
+</html>

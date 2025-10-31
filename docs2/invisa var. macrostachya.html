@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>invisa var. macrostachya</title>
+<link href="https://cdn.jsdelivr.net/npm/json-formatter-js@2.5.23/dist/json-formatter.min.css" rel="stylesheet">
+<style>
+  body { font-family: sans-serif; padding: 1em; }
+  #json { margin-top: 1em; }
+</style>
+</head>
+<body>
+<h1><i>Mimosa</i> invisa var. macrostachya</h1>
+<div id="json"></div>
+<p><a href="index.html">Voltar ao índice</a></p>
+
+<script src="https://cdn.jsdelivr.net/npm/json-formatter-js@2.5.23/dist/json-formatter.umd.min.js"></script>
+<script>
+  const data = {
+  "sources": [
+    {
+      "sourceType": "article",
+      "authorship": "Jordão, L.S.B. & Morim, M.P. & Baumgratz, J.F.A.",
+      "year": "2018",
+      "title": "Toward a Census of *Mimosa* (Leguminosae) in the Atlantic Domain, Southeastern Brazil",
+      "journal": "Systematic Botany",
+      "volume": "43",
+      "number": "1",
+      "pages": "162-197"
+    }
+  ],
+  "specificEpithet": "invisa var. macrostachya",
+  "stems": {
+    "sources": []
+  },
+  "stipule": {
+    "sources": [],
+    "margin": {
+      "sources": []
+    },
+    "adaxial": {
+      "sources": []
+    },
+    "abaxial": {
+      "sources": []
+    }
+  },
+  "leaf": {
+    "sources": [],
+    "petiole": {
+      "sources": []
+    },
+    "bipinnate": {
+      "sources": [],
+      "rachis": {
+        "sources": [],
+        "spicule": {
+          "sources": []
+        }
+      },
+      "pinnae": {
+        "sources": [],
+        "numberOfPairs": {
+          "min": 14,
+          "max": 22
+        },
+        "paraphillidia": {
+          "sources": []
+        },
+        "rachilla": {
+          "sources": []
+        },
+        "leaflet": {
+          "sources": [],
+          "numberOfPairs": {
+            "min": 36,
+            "max": 48
+          },
+          "margin": {
+            "sources": [],
+            "trichomes": {
+              "sources": [],
+              "filiform": {
+                "sources": [
+                  {
+                    "sourceType": "article",
+                    "authorship": "Jordão, L.S.B. & Morim, M.P. & Baumgratz, J.F.A.",
+                    "year": "2020",
+                    "title": "Trichomes in *Mimosa* (Leguminosae): Towards a characterization and a terminology standardization",
+                    "journal": "Flora",
+                    "number": "272",
+                    "pages": "151702",
+                    "figure": "1E",
+                    "obtainingMethod": "opticalMicroscope"
+                  }
+                ],
+                "are": "present",
+                "orientation": "antrorse",
+                "numberOfCells": "unicelullar"
+              }
+            }
+          },
+          "adaxial": {
+            "sources": []
+          },
+          "abaxial": {
+            "sources": []
+          }
+        }
+      }
+    }
+  },
+  "inflorescence": {
+    "sources": [],
+    "peduncle": {
+      "sources": []
+    },
+    "spicate": {
+      "sources": []
+    }
+  },
+  "flower": {
+    "sources": [],
+    "bracteole": {
+      "sources": []
+    },
+    "merism": [
+      "5-merous",
+      "6-merous"
+    ],
+    "numberWhorlsOfStamens": "isostemonous",
+    "calyx": {
+      "sources": [],
+      "shape": "campanulate"
+    },
+    "corolla": {
+      "sources": [],
+      "shape": "turbinate"
+    }
+  },
+  "androecium": {
+    "sources": [],
+    "filaments": {
+      "sources": [],
+      "colour": "pinkish"
+    }
+  },
+  "ginoecium": {
+    "sources": [],
+    "ovary": {
+      "sources": []
+    }
+  },
+  "fruit": {
+    "sources": [],
+    "stipe": {
+      "sources": []
+    },
+    "replum": {
+      "sources": []
+    },
+    "epicarp": {
+      "sources": []
+    }
+  },
+  "seed": {
+    "sources": []
+  },
+  "descriptionAuthorship": {
+    "authorship": [
+      {
+        "name": "Lucas Sá Barreto Jordão",
+        "date": 1692107172
+      }
+    ]
+  }
+};
+  const container = document.getElementById("json");
+  const formatter = new window.JSONFormatter(data, Infinity);
+  container.appendChild(formatter.render());
+</script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>niederleinii</title>
+<link href="https://cdn.jsdelivr.net/npm/json-formatter-js@2.5.23/dist/json-formatter.min.css" rel="stylesheet">
+<style>
+  body { font-family: sans-serif; padding: 1em; }
+  #json { margin-top: 1em; }
+</style>
+</head>
+<body>
+<h1><i>Mimosa</i> niederleinii</h1>
+<div id="json"></div>
+<p><a href="index.html">Voltar ao índice</a></p>
+
+<script src="https://cdn.jsdelivr.net/npm/json-formatter-js@2.5.23/dist/json-formatter.umd.min.js"></script>
+<script>
+  const data = {
+  "sources": [],
+  "specificEpithet": "niederleinii",
+  "stems": {
+    "sources": []
+  },
+  "stipule": {
+    "sources": [],
+    "margin": {
+      "sources": []
+    },
+    "adaxial": {
+      "sources": []
+    },
+    "abaxial": {
+      "sources": []
+    }
+  },
+  "leaf": {
+    "sources": [],
+    "petiole": {
+      "sources": []
+    },
+    "bipinnate": {
+      "sources": [],
+      "rachis": {
+        "sources": [],
+        "spicule": {
+          "sources": []
+        }
+      },
+      "pinnae": {
+        "sources": [],
+        "numberOfPairs": {
+          "value": 1
+        },
+        "paraphillidia": {
+          "sources": []
+        },
+        "rachilla": {
+          "sources": []
+        },
+        "leaflet": {
+          "sources": [],
+          "numberOfPairs": {
+            "min": 24,
+            "max": 42
+          },
+          "margin": {
+            "sources": []
+          },
+          "adaxial": {
+            "sources": []
+          },
+          "abaxial": {
+            "sources": []
+          }
+        }
+      }
+    }
+  },
+  "inflorescence": {
+    "sources": [],
+    "peduncle": {
+      "sources": []
+    },
+    "spicate": {
+      "sources": []
+    }
+  },
+  "flower": {
+    "sources": [],
+    "bracteole": {
+      "sources": []
+    },
+    "calyx": {
+      "sources": []
+    },
+    "corolla": {
+      "sources": [],
+      "shape": "subtubular"
+    }
+  },
+  "androecium": {
+    "sources": [],
+    "filaments": {
+      "sources": [],
+      "colour": "pinkish"
+    }
+  },
+  "ginoecium": {
+    "sources": [],
+    "ovary": {
+      "sources": []
+    }
+  },
+  "fruit": {
+    "sources": [],
+    "stipe": {
+      "sources": []
+    },
+    "replum": {
+      "sources": []
+    },
+    "epicarp": {
+      "sources": []
+    }
+  },
+  "seed": {
+    "sources": []
+  },
+  "descriptionAuthorship": {
+    "authorship": [
+      {
+        "name": "Barneby",
+        "date": 1703709350
+      }
+    ]
+  }
+};
+  const container = document.getElementById("json");
+  const formatter = new window.JSONFormatter(data, Infinity);
+  container.appendChild(formatter.render());
+</script>
+</body>
+</html>
