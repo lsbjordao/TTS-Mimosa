@@ -152,8 +152,8 @@ class Stipule extends Sources {
      *
      * @param rarelyMin - The rarely minimum value (integer).
      */
-    setLengthRarelyMin(min: number): void {
-        _setLengthRarelyMin(min, this);
+    setLengthRarelyMin(rarelyMin: number): void {
+        _setLengthRarelyMin(rarelyMin, this);
     }
 
     /**
@@ -161,8 +161,8 @@ class Stipule extends Sources {
      *
      * @param rarelyMax - The rarely maximum value (integer).
      */
-    setLengthRarelyMax(max: number): void {
-        _setLengthRarelyMax(max, this);
+    setLengthRarelyMax(rarelyMax: number): void {
+        _setLengthRarelyMax(rarelyMax, this);
     }
 
     /**

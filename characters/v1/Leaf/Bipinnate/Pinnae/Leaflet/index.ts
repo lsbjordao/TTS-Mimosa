@@ -199,19 +199,19 @@ class Leaflet extends Sources {
     /**
      * Sets a single rarely value for number of pairs.
      *
-     * @param min - The rarely minimum number of pairs value (integer).
+     * @param rarelyMin - The rarely minimum number of pairs value (integer).
      */
-    setNumberOfPairsRarelyMin(min: number): void {
-        _setNumberOfPairsRarelyMin(min, this)
+    setNumberOfPairsRarelyMin(rarelyMin: number): void {
+        _setNumberOfPairsRarelyMin(rarelyMin, this)
     }
 
     /**
      * Sets a single rarely value for number of pairs.
      *
-     * @param min - The rarely maximum number of pairs value (integer).
+     * @param rarelyMax - The rarely maximum number of pairs value (integer).
      */
-    setNumberOfPairsRarelyMax(max: number): void {
-        _setNumberOfPairsRarelyMax(max, this)
+    setNumberOfPairsRarelyMax(rarelyMax: number): void {
+        _setNumberOfPairsRarelyMax(rarelyMax, this)
     }
 
 }

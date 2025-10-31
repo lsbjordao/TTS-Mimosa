@@ -22,8 +22,8 @@ class DescriptionAuthorship {
 
     /**
      * Adds an author to the authorship list.
-     * @param {string} name - The author name of the description.
-     * @param {number} date - The timestamp representing the date.
+     *
+     * @param data - An object containing the author name and date.
      */
     public addAuthor(data: IDescriptionAuthorship): void {
         this.authorship.push(data)

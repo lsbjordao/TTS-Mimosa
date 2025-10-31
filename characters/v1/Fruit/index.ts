@@ -105,8 +105,8 @@ class Fruit extends Sources {
      *
      * @param rarelyMin - The rarely minimum value (integer).
      */
-    setNumberOfSeedsRarelyMin(min: number): void {
-        _setNumberOfSeedsRarelyMin(min, this)
+    setNumberOfSeedsRarelyMin(rarelyMin: number): void {
+        _setNumberOfSeedsRarelyMin(rarelyMin, this)
     }
 
     /**
@@ -114,8 +114,8 @@ class Fruit extends Sources {
      *
      * @param rarelyMax - The rarely maximum value (integer).
      */
-    setNumberOfSeedsRarelyMax(max: number): void {
-        _setNumberOfSeedsRarelyMax(max, this)
+    setNumberOfSeedsRarelyMax(rarelyMax: number): void {
+        _setNumberOfSeedsRarelyMax(rarelyMax, this)
     }
 
     /**

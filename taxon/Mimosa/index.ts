@@ -93,8 +93,8 @@ export class Mimosa extends Sources {
      * - **capitate-filiform**
      * - **capitate-setiform**
      * 
-     * @source [Jordão et al. (2020)](https://doi.org/10.1016/j.flora.2020.151702)
-     * @source [Santos-Silva et al. (2013)](https://doi.org/10.11646/phytotaxa.119.1.1)
+     * @see [Jordão et al. (2020)](https://doi.org/10.1016/j.flora.2020.151702)
+     * @see [Santos-Silva et al. (2013)](https://doi.org/10.11646/phytotaxa.119.1.1)
      */
     trichomes: Trichomes
 
