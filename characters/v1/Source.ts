@@ -82,6 +82,16 @@ export class Source {
     doi: string
 
     /**
+     * url of image.
+     */
+    urlImage: string
+
+    /**
+     * legend of url image.
+     */
+    urlImageLegend: string
+
+    /**
      * Describe Source.
      */
     constructor() { }
