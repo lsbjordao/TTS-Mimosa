@@ -39,6 +39,8 @@ source1.volume = '2'
 source1.figure = '2P,Q'
 source1.obtainingMethod = 'photo'
 source1.doi = 'https://doi.org/10.1590/1676-0611-BN-2017-0402'
+source1.imageUrl = 'https://github.com/lsbjordao/TTS-Mimosa-App-Figures/blob/main/Mimosa/Mimosa_gemmulata/Mimosa_gemmulata_Leaf_Pinnae_Gall.png?raw=true'
+source1.imageUrlLegend = 'P-Q. Pinnula galls induced by Cecidomyiidae on Mimosa gemmulata (Leguminosae-Caesalpinioideae). https://doi.org/10.1590/1676-0611-BN-2017-0402'
 Mimosa_gemmulata.leaf.bipinnate.pinnae.gall.addSource(source1)
 
 // Export Mimosa gemulata
