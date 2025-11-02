@@ -233,8 +233,8 @@ source3.number = '2'
 source3.pages = '339-351'
 source3.figure = '3'
 source3.obtainingMethod = 'photo'
-source3.urlImage = 'https://www.pngmart.com/files/5/Plants-PNG-Clipart.png'
-source3.urlImageLegend = 'A. Flowering branches. B. Fruiting branches (Photos: V. F. Dutra and A. C. Sevilha).'
+source3.imageUrl = 'https://www.pngmart.com/files/5/Plants-PNG-Clipart.png'
+source3.imageUrlLegend = 'A. Flowering branches. B. Fruiting branches (Photos: V. F. Dutra and A. C. Sevilha).'
 Mimosa_afranioi.addSource(source3)
 
 // Export Mimosa afranioi

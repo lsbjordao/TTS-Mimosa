@@ -82,14 +82,14 @@ export class Source {
     doi: string
 
     /**
-     * url of image.
+     * Image URL.
      */
-    urlImage: string
+    imageUrl: string
 
     /**
-     * legend of url image.
+     * Legend of the image URL.
      */
-    urlImageLegend: string
+    imageUrlLegend: string
 
     /**
      * Describe Source.
