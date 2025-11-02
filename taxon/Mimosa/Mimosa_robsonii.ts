@@ -218,11 +218,12 @@ source3.year = '2021'
 source3.title = 'New Species of *Mimosa* (Leguminosae) from Brazil'
 source3.journal = 'Systematic Botany'
 source3.volume = '46'
-source3.number = '7A'
+source3.number = '2'
 source3.pages = '347'
+source3.figure = '7A'
 source3.imageUrl = 'https://github.com/lsbjordao/TTS-Mimosa-App-Figures/blob/main/Mimosa/Mimosa_robsonii/Mimosa_robsonii_fruit_0.png?raw=true'
 source3.imageUrlLegend = 'Detail of craspedia. A. *M. robsonii*. (Photo A. Collection *R.D. Ribeiro 1044*).'
-Mimosa_robsonii.fruit.addSource(source1)
+Mimosa_robsonii.fruit.addSource(source3)
 
 // Export Mimosa robsonii
 export { Mimosa_robsonii }

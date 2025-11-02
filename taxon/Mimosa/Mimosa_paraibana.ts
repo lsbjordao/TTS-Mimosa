@@ -87,6 +87,19 @@ Mimosa_paraibana.fruit.epicarp = new Epicarp()
 
 Mimosa_paraibana.seed = new Seed()
 
+// Sources
+const source1 = new Source()
+source1.sourceType = 'article'
+source1.authorship = 'Jordão, L.S.B. & Morim, M.P. & Simon, M.F., Sevilha, A.C. & Baumgratz, J.F.A.'
+source1.year = '2024'
+source1.title = 'Phylogenetic placement of *Mimosa pabstiana* reinforces a biogeographic pattern of the Pleistocene Arc Theory in *Mimosa* (Leguminosae, Caesalpinoideae)'
+source1.journal = 'Phytotaxa'
+source1.volume = '655'
+source1.number = '2'
+source1.pages = '193'
+source1.imageUrl = 'https://github.com/lsbjordao/TTS-Mimosa-App-Figures/blob/main/Mimosa/Mimosa_paraibana/Mimosa_paraibana_0.png?raw=true'
+source1.imageUrlLegend = 'A. Detail of capitate inflorescences. B. Detail of craspedia. C. Detail of habit. D. Detail of spicate, paniculate inflorescences (A and C, photographed by Leonardo Jales Leitão; B, photographed by Dr. Rubens Queiroz; D, photographed by M.F. Simon).'
+Mimosa_paraibana.addSource(source1)
 
 // Description authorship
 Mimosa_paraibana.descriptionAuthorship = new DescriptionAuthorship()
