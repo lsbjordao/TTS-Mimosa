@@ -231,7 +231,7 @@ source3.number = '2'
 source3.pages = '241'
 source3.figure = '3C'
 source3.obtainingMethod = 'photo'
-source3.imageUrl = 'https://raw.githubusercontent.com/lsbjordao/TTS-Mimosa-App-Figures/cb6fcee103cb2ff90b669ebff854976f36199351/Mimosa/Mimosa_osmari/Mimosa_osmarii_1.png'
+source3.imageUrl = 'https://raw.githubusercontent.com/lsbjordao/TTS-Mimosa-App-Figures/refs/heads/main/Mimosa/Mimosa_osmari/Mimosa_osmarii_1.png'
 source3.imageUrlLegend = 'Details of the flowering branches of *Mimosa osmarii*.'
 Mimosa_osmarii.addSource(source3)
 
