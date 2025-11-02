@@ -229,9 +229,24 @@ source3.journal = 'Phytotaxa'
 source3.volume = '312'
 source3.number = '2'
 source3.pages = '237-246'
-source3.figure = '4'
-source3.obtainingMethod = 'drawing'
-Mimosa_osmarii.addSource(source3)
+source3.figure = '3C'
+source3.obtainingMethod = 'photo'
+source3.imageUrl = 'https://raw.githubusercontent.com/lsbjordao/TTS-Mimosa-App-Figures/cb6fcee103cb2ff90b669ebff854976f36199351/Mimosa/Mimosa_osmari/Mimosa_osmarii_1.png'
+source3.imageUrlLegend = 'Details of the flowering branches of *Mimosa osmarii*.'
+Mimosa_osmarii.addSource(source2)
+
+const source4 = new Source()
+source4.sourceType = 'article'
+source4.authorship = 'Jordão, L.S.B. & Morim, M.P. & Baumgratz, J.F.A. & Simon, M.F.'
+source4.year = '2017'
+source4.title = 'A new species of *Mimosa* (Leguminosae) endemic to the Brazilian Cerrado'
+source4.journal = 'Phytotaxa'
+source4.volume = '312'
+source4.number = '2'
+source4.pages = '237-246'
+source4.figure = '4'
+source4.obtainingMethod = 'drawing'
+Mimosa_osmarii.addSource(source4)
 
 // Export Mimosa osmarii
 export { Mimosa_osmarii }
