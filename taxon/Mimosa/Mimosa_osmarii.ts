@@ -233,7 +233,7 @@ source3.figure = '3C'
 source3.obtainingMethod = 'photo'
 source3.imageUrl = 'https://raw.githubusercontent.com/lsbjordao/TTS-Mimosa-App-Figures/cb6fcee103cb2ff90b669ebff854976f36199351/Mimosa/Mimosa_osmari/Mimosa_osmarii_1.png'
 source3.imageUrlLegend = 'Details of the flowering branches of *Mimosa osmarii*.'
-Mimosa_osmarii.addSource(source2)
+Mimosa_osmarii.addSource(source3)
 
 const source4 = new Source()
 source4.sourceType = 'article'
