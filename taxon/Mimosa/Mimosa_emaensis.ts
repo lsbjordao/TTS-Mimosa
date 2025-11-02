@@ -190,9 +190,11 @@ source3.title = 'New Species of *Mimosa* (Leguminosae) from Brazil'
 source3.journal = 'Systematic Botany'
 source3.volume = '46'
 source3.number = '2'
-source3.pages = '339-351'
+source3.pages = '345'
 source3.figure = '5'
 source3.obtainingMethod = 'photo'
+source3.imageUrl = 'https://github.com/lsbjordao/TTS-Mimosa-App-Figures/blob/main/Mimosa/Mimosa_emaensis/Mimosa_emaensis_0.png?raw=true'
+source3.imageUrlLegend = 'A. Cespitose habit. B. Detail of stems and an inflorescence. C. Detail of an immature craspedium (Photos: L. S. B. Jordão).'
 Mimosa_emaensis.addSource(source3)
 
 // Export Mimosa emaensis
