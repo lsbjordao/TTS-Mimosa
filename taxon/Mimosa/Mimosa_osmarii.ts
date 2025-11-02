@@ -214,8 +214,10 @@ source2.journal = 'Phytotaxa'
 source2.volume = '312'
 source2.number = '2'
 source2.pages = '237-246'
-source2.figure = '3A,B,C,D'
+source2.figure = '3D'
 source2.obtainingMethod = 'photo'
+source2.imageUrl = 'https://raw.githubusercontent.com/lsbjordao/TTS-Mimosa-App-Figures/cb6fcee103cb2ff90b669ebff854976f36199351/Mimosa/Mimosa_osmari/Mimosa_osmarii_0.png'
+source2.imageUrlLegend = 'Details of the flowering branches of *Mimosa osmarii*.'
 Mimosa_osmarii.addSource(source2)
 
 const source3 = new Source()
