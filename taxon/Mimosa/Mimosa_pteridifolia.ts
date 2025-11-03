@@ -112,9 +112,5 @@ Mimosa_pteridifolia.descriptionAuthorship.addAuthor({
     date: 1703709351 
 })
 
-
-// Sources
-
-
 // Export Mimosa pteridifolia
 export { Mimosa_pteridifolia }
