@@ -91,19 +91,19 @@ Mimosa_pteridifolia.fruit.epicarp = new Epicarp()
 Mimosa_pteridifolia.seed = new Seed()
 
 // Sources
-const source0 = new Source()
-source0.sourceType = 'article'
-source0.authorship = 'Jordão, L.S.B. & Morim, M.P. & Baumgratz, J.F.A.'
-source0.year = '2018'
-source0.title = 'Evolution of trichome morphology in Mimosa (Leguminosae-Mimosoideae)'
-source0.journal = 'Phytotaxa'
-source0.volume = '119'
-source0.number = '1'
-source0.figure = '3'
-source0.pages = '8'
-source0.imageUrl = 'https://github.com/lsbjordao/TTS-Mimosa-App-Figures/blob/main/Mimosa/Mimosa_pteridifolia/Mimosa_pteridifolia_leaf_bipinnate_pinnae_leaflet_abaxialSurface_0.png?raw=true'
-source0.imageUrlLegend = 'SEM micrographs of sessile glandular trichomes of abaxial leaflets of *Mimosa* species. (A) *M. adenophylla* [note: synonymized under *M. pteridifolia*]. (B) *M. pteridifolia*.'
-Mimosa_pteridifolia.leaf.bipinnate.pinnae.leaflet.abaxial.trichomes.peltate.addSource(source0)
+// const source0 = new Source()
+// source0.sourceType = 'article'
+// source0.authorship = 'Jordão, L.S.B. & Morim, M.P. & Baumgratz, J.F.A.'
+// source0.year = '2018'
+// source0.title = 'Evolution of trichome morphology in Mimosa (Leguminosae-Mimosoideae)'
+// source0.journal = 'Phytotaxa'
+// source0.volume = '119'
+// source0.number = '1'
+// source0.figure = '3'
+// source0.pages = '8'
+// source0.imageUrl = 'https://github.com/lsbjordao/TTS-Mimosa-App-Figures/blob/main/Mimosa/Mimosa_pteridifolia/Mimosa_pteridifolia_leaf_bipinnate_pinnae_leaflet_abaxialSurface_0.png?raw=true'
+// source0.imageUrlLegend = 'SEM micrographs of sessile glandular trichomes of abaxial leaflets of *Mimosa* species. (A) *M. adenophylla* [note: synonymized under *M. pteridifolia*]. (B) *M. pteridifolia*.'
+// Mimosa_pteridifolia.leaf.bipinnate.pinnae.leaflet.abaxial.trichomes.peltate.addSource(source0)
 
 // Description authorship
 Mimosa_pteridifolia.descriptionAuthorship = new DescriptionAuthorship()
