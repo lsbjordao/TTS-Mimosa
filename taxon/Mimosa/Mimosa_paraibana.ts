@@ -96,6 +96,7 @@ source1.title = 'Phylogenetic placement of *Mimosa pabstiana* reinforces a bioge
 source1.journal = 'Phytotaxa'
 source1.volume = '655'
 source1.number = '2'
+source1.figure = '4'
 source1.pages = '193'
 source1.imageUrl = 'https://github.com/lsbjordao/TTS-Mimosa-App-Figures/blob/main/Mimosa/Mimosa_paraibana/Mimosa_paraibana_0.png?raw=true'
 source1.imageUrlLegend = 'A. Detail of capitate inflorescences. B. Detail of craspedia. C. Detail of habit. D. Detail of spicate, paniculate inflorescences (A and C, photographed by Leonardo Jales Leitão; B, photographed by Dr. Rubens Queiroz; D, photographed by M.F. Simon).'

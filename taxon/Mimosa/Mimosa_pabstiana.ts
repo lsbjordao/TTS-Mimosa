@@ -90,6 +90,20 @@ Mimosa_pabstiana.fruit.epicarp = new Epicarp()
 
 Mimosa_pabstiana.seed = new Seed()
 
+// Sources
+const source1 = new Source()
+source1.sourceType = 'article'
+source1.authorship = 'Jordão, L.S.B. & Morim, M.P. & Simon, M.F., Sevilha, A.C. & Baumgratz, J.F.A.'
+source1.year = '2024'
+source1.title = 'Phylogenetic placement of *Mimosa pabstiana* reinforces a biogeographic pattern of the Pleistocene Arc Theory in *Mimosa* (Leguminosae, Caesalpinoideae)'
+source1.journal = 'Phytotaxa'
+source1.volume = '655'
+source1.number = '2'
+source1.figure = '2'
+source1.pages = '190'
+source1.imageUrl = 'https://github.com/lsbjordao/TTS-Mimosa-App-Figures/blob/main/Mimosa/Mimosa_pabstiana/Mimosa_pabstiana_0.png?raw=true'
+source1.imageUrlLegend = 'A. Detail of flowering branches. B. Detail of flowering and fruiting branches. C. Detail of craspedia. (photographed by A.C. Sevilha).'
+Mimosa_pabstiana.addSource(source1)
 
 // Description authorship
 Mimosa_pabstiana.descriptionAuthorship = new DescriptionAuthorship()
