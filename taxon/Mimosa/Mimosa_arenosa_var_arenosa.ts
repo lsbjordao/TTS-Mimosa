@@ -117,6 +117,8 @@ source2.journal = 'Flora'
 source2.number = '272'
 source2.pages = '151702'
 source2.figure = '8A'
+source2.imageUrl = 'https://github.com/lsbjordao/TTS-Mimosa-App-Figures/blob/main/Mimosa/Mimosa_arenosa_var_arenosa/Mimosa_arenosa_var_arenosa_Leaf_Bipinnate_Petiole.png?raw=true'
+source2.imageUrlLegend = '(A) glandular head of a granular trichomes on petiole of Mimosa arenosa var. arenosa.'
 source2.obtainingMethod = 'scanningElectronMicroscope'
 Mimosa_arenosa_var_arenosa.leaf.petiole.trichomes.granular.addSource(source2)
 
