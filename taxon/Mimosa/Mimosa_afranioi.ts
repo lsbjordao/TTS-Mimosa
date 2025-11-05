@@ -141,7 +141,7 @@ Mimosa_afranioi.flower.calyx.numSepals = 3
 Mimosa_afranioi.flower.calyx.setLengthMinMax(0.3, 0.6)
 Mimosa_afranioi.flower.calyx.shape = 'campanulate'
 Mimosa_afranioi.flower.corolla = new Corolla()
-Mimosa_afranioi.flower.corolla.numPepals = 3
+Mimosa_afranioi.flower.corolla.numPetals = 3
 Mimosa_afranioi.flower.corolla.setLengthMinMax(1.4, 2.5)
 Mimosa_afranioi.flower.corolla.shape = 'campanulate'
 Mimosa_afranioi.flower.corolla.lobes = new Lobes()
