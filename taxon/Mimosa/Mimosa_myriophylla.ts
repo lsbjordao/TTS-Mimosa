@@ -99,6 +99,14 @@ Mimosa_myriophylla.descriptionAuthorship.addAuthor({
 
 
 // Sources
+const source0 = new Source()
+source0.authorship = 'Luciano Gonçalves Pedrosa'
+source0.sourceType = 'misc'
+source0.obtainingMethod = 'photo'
+source0.imageUrl = 'https://github.com/lsbjordao/TTS-Mimosa-App-Figures/blob/main/Mimosa/Mimosa_myriophylla/Mimosa_myriophylla_0.jpg?raw=true'
+source0.imageUrlLegend = 'Shrubby habit of *Mimosa myriophylla*, with reddish flowers (Photo by Luciano Gonçalves Pedrosa).'
+
+Mimosa_myriophylla.addSource(source0)
 
 
 // Export Mimosa myriophylla
