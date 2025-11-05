@@ -30,6 +30,23 @@ Mimosa_misera.leaf.bipinnate.pinnae.leaflet.abaxial.trichomes.capitate.filiform 
 Mimosa_misera.leaf.bipinnate.pinnae.leaflet.abaxial.trichomes.capitate.filiform.are = 'present'
 Mimosa_misera.leaf.bipinnate.pinnae.leaflet.abaxial.trichomes.capitate.filiform.variantCordistipulae = new VariantCordistipulae()
 
+// source
+
+/// Trichomes
+const source2 = new Source()
+source2.sourceType = 'article'
+source2.authorship = 'Jordão, L.S.B. & Morim, M.P. & Baumgratz, J.F.A.'
+source2.year = '2020'
+source2.title = 'Trichomes in *Mimosa* (Leguminosae): Towards a characterization and a terminology standardization'
+source2.journal = 'Flora'
+source2.number = '272'
+source2.pages = '151702'
+source2.figure = '8A'
+source2.imageUrl = 'https://github.com/lsbjordao/TTS-Mimosa-App-Figures/blob/main/Mimosa/Mimosa_misera/Mimosa_misera_Leaf_Bipinnate_Leaflet_Margin_Trichomes_Filiform_Variant2.png?raw=true'
+source2.imageUrlLegend = '(I--J) capitate-filiform (variant Cordistipulae) trichomes on the abaxial surface [note: maybe margin] of leaflet of M. misera (Scale bars = 50 μm).'
+source2.obtainingMethod = 'scanningElectronMicroscope'
+Mimosa_misera.leaf.bipinnate.pinnae.leaflet.abaxial.trichomes.capitate.filiform.variantCordistipulae.addSource(source2)
+
 // Description authorship
 Mimosa_misera.descriptionAuthorship = new DescriptionAuthorship()
 Mimosa_misera.descriptionAuthorship.addAuthor({
