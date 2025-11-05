@@ -18,7 +18,7 @@ class Corolla extends Sources {
     /**
      * Number of petals.
      */
-    numPepals: number
+    numPetals: number
 
     /**
      * Corolla length in milimeters (mm).

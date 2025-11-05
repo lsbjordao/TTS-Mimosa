@@ -85,7 +85,7 @@ Mimosa_schomburgkii.flower.calyx.numSepals = 3
 Mimosa_schomburgkii.flower.calyx.setLengthMinMax(1, 2)
 Mimosa_schomburgkii.flower.calyx.shape = 'campanulate'
 Mimosa_schomburgkii.flower.corolla = new Corolla()
-Mimosa_schomburgkii.flower.corolla.numPepals = 3
+Mimosa_schomburgkii.flower.corolla.numPetals = 3
 Mimosa_schomburgkii.flower.corolla.setLengthMinMax(2, 3)
 Mimosa_schomburgkii.flower.corolla.shape = 'campanulate'
 Mimosa_schomburgkii.flower.corolla.trichomes = new Trichomes()
